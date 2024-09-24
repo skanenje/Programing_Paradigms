@@ -1,0 +1,12 @@
+{
+    "type": "module",
+    "scripts": {
+        "test": "mocha --experimental-modules --require ./test/setup.js 'test/**/*.test.js'"
+    },
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "jsdom": "^25.0.0",
+        "mocha": "^10.2.0",
+        "sinon": "^19.0.2"
+    }
+}
